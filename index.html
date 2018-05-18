@@ -2,9 +2,20 @@
 <html>
   <head>
     <title>Small Businees Page</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script type="text/javascript" src="js/jquery.js"></script>
+		<!-- JS -->
+        <script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
   </head>
 
@@ -12,22 +23,22 @@
       <!-- header -->
     <header>
       <!-- main container -->
-      <div class="main-container">
+      <div class="container">
         <!-- single row -->
-        <div class="single-row">
+        <div class="row">
           <!-- col-left -->
-            <div class="col-left">
-              <img src="images/home.jpg" alt="Small Business Page">
+            <div class="col-md-8">
+              <img class="img-responsive img-rounded" src="images/home.jpg" alt="Small Business Page">
             </div>
             <!-- col-right -->
-            <div class="col-right">
-              <h2>LoSo</h2>
+            <div class="col-md-4">
+              <h1>LoSo</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Saepe rem nisi accusamus error velit animi non ipsa placeat.
                 Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat
                  eveniet eligendi dolor consectetur.
                </p>
-               <a href="#" class="btn">Take A Tour</a>
+               <a href="#" class="btn btn-primary btn-lg">Take A Tour</a>
             </div>
         </div>
       </div>
@@ -38,9 +49,9 @@
     <!-- seperator -->
     <section>
       <!-- main container -->
-      <div class="main-container">
+      <div class="container">
         <!-- single row -->
-        <div class="single-row">
+        <div class="row">
           <!-- col full   -->
           <div>
             <hr>
@@ -52,35 +63,35 @@
     <section>
       <!-- features -->
       <!-- main container -->
-      <div class="main-container">
+      <div class="container">
         <!-- single row -->
-        <div class="single-row">
+        <div class="row">
           <!-- col 1 -->
-          <div class="col-1">
+          <div class="col-md-4">
             <h2>RETINA READY</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Saepe rem nisi accusamus error velit animi non ipsa placeat.
               Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat
               eveniet eligendi dolor consectetur.</p>
-              <a href="#" class="btn-info">More Info</a>
+              <a href="#" class="btn btn-default">More Info</a>
           </div>
           <!-- col 2 -->
-          <div class="col-2">
+          <div class="col-md-4">
             <h2>MOBILE READY</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Saepe rem nisi accusamus error velit animi non ipsa placeat.
               Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat
               eveniet eligendi dolor consectetur.</p>
-              <a href="#" class="btn-info">More Info</a>
+              <a href="#" class="btn btn-default">More Info</a>
           </div>
           <!-- col 3 -->
-          <div class="col-3">
+          <div class="col-md-4">
             <h2>EASY LAYOUT</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Saepe rem nisi accusamus error velit animi non ipsa placeat.
               Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat
               eveniet eligendi dolor consectetur.</p>
-              <a href="#" class="btn-info">More Info</a>
+              <a href="#" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -89,12 +100,12 @@
     <div class="clear-fix"></div>
     <footer>
       <!-- main container -->
-      <div class="main-container">
+      <div class="container">
         <!-- single row -->
-        <div class="single-row">
+        <div class="row">
           <!-- col full -->
-          <div class="col-footer">
-            <p>Copy Right &copy; Loso 2018</p>
+          <div class="col-md-12">
+            <p id="footer-p">Copyright &copy; Loso 2018</p>
           </div>
         </div>
       </div>

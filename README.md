@@ -1,3 +1,3 @@
 # ResWeb
 # sbp
-Practice and template creation for future sites.
+Practice and template for future sites.

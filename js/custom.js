@@ -102,3 +102,11 @@ $(document).ready(function(){
     slideMargin: 50
   });
 });
+
+// Add Counters
+$(document).ready(function(){
+  $('.counter-num').counterUp({
+    delay: 10,
+    time: 2000
+  });
+});
